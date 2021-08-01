@@ -1,0 +1,10 @@
+#img-bg{
+    background-image: url('../../assets/Img/foto.jpg');
+
+    min-width: 600px;
+
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
