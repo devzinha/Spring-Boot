@@ -8,10 +8,10 @@
   <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
     <ul class="navbar-nav ml-auto d-flex align-items-center">
       <li class="nav-item active">
-        <img src="https://imgur.com/CDej8fc" alt="Imagem do usuário" width="50px" class="rounded-circle img-fluid">
+        <img src="{{foto}}" alt="Imagem do usuário" width="50px" class="rounded-circle img-fluid">
       </li>
       <li class="nav-item p-lg-3">
-        <p class="font-italic text-white text-left ft-style">Nome do usuário </p>
+        <p class="font-italic text-white text-left ft-style">{{nome}}</p>
       </li>
 
       <li class="nav-item p-lg-3">
@@ -23,6 +23,7 @@
      
     <ul class="navbar-nav ml-auto d-flex align-items-center">
       <li class="nav-item p-lg-3">
+        <a (click)='sair' class="m-0 font-weight-bold text-white fs-16 "></a>
         <p class=" a text-white text-left ">Sair <i class="fa fa-sign-out" aria-hidden="true"></i> </p>
       </li>
        
